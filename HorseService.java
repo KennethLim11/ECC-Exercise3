@@ -10,6 +10,7 @@ public class HorseService {
         System.out.println(horse.getName().toUpperCase() + " SHOUTS " + warCry);
     }
 
+    //test
     public static void addDistanceTraveled(Horse horse, double distance) {
         horse.setDistanceTraveled(distance);
     }
