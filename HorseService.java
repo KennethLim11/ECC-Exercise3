@@ -9,7 +9,8 @@ public class HorseService {
         String warCry = horse.getWarCry().orElse("No war cry.");
         System.out.println(horse.getName().toUpperCase() + " SHOUTS " + warCry);
     }
-
+	
+    //Test conflict
     public static void addDistanceTraveled(Horse horse, double distance) {
         horse.setDistanceTraveled(distance);
     }
